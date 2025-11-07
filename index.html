@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinoth Kumar D — Java Developer & Full-Stack</title>
+  <meta name="description" content="Java Developer & Full-Stack Engineer building AI-powered, secure, and scalable apps.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/img/profile.png">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function(){ emailjs.init({ publicKey: "yt1Lc_JUYmWUsSZN1" }); })();
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">Vino.dev</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="right-controls">
+      <button id="themeToggle" aria-label="Toggle theme">◐</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="aurora"></div>
+    <div class="hero-grid">
+      <div class="hero-left">
+        <p class="kicker">Java Developer • Full-Stack Engineer • Problem Solver</p>
+        <h1><span id="typewriter"></span></h1>
+        <p class="sub">I build scalable backends with <b>Java & Spring Boot</b>, delightful UIs with <b>React/Next.js</b>, and ship <b>AI-powered</b> features with strong DSA fundamentals.</p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Hire Me</a>
+          <a class="btn ghost" href="assets/docs/Vinoth_Kumar_Resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="assets/docs/Vinoth_Kumar_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        </div>
+        <ul class="quick-facts">
+          <li>📍 Tiruchirapalli, India</li>
+          <li>🎓 B.E. CSE — HIT (2026)</li>
+          <li>⚡ Open to SDE/Intern roles</li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="photo-wrap glow-ring">
+          <img src="assets/img/profile.png" alt="Vinoth Kumar D">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-head"><h2>Featured Projects</h2><p>Across AI, full-stack, security, and games.</p></div>
+    <div class="projects">
+      <article class="card tilt reveal"><div class="thumb gradient-border"></div><div class="meta"><h3>AI Study Assistant</h3><p>React + Spring Boot + PostgreSQL + OpenAI.</p><ul class="tags"><li>React</li><li>Spring Boot</li><li>OpenAI</li><li>PostgreSQL</li></ul></div></article>
+      <article class="card tilt reveal"><div class="thumb gradient-border"></div><div class="meta"><h3>Restaurant Management System</h3><p>Core Java OOP — menu, orders, billing; SOLID abstractions.</p><ul class="tags"><li>Java</li><li>OOP</li></ul></div></article>
+      <article class="card tilt reveal"><div class="thumb gradient-border"></div><div class="meta"><h3>Data Encryption & Hiding</h3><p>Python + Streamlit with AES and LSB steganography.</p><ul class="tags"><li>Python</li><li>Streamlit</li><li>Crypto</li></ul></div></article>
+      <article class="card tilt reveal"><div class="thumb gradient-border"></div><div class="meta"><h3>Smart Automated Parking</h3><p>CV pipeline for real-time slot detection.</p><ul class="tags"><li>AI</li><li>Computer Vision</li></ul></div></article>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="section-head"><h2>Skills</h2><p>Tools I use to ship high-quality software.</p></div>
+    <div class="skills">
+      <div class="skill reveal"><h3>Languages</h3><p>Java, Python, JavaScript, SQL, C (aptitude)</p></div>
+      <div class="skill reveal"><h3>Backend</h3><p>Spring Boot, REST APIs, JDBC (concepts)</p></div>
+      <div class="skill reveal"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, Next.js, Tailwind</p></div>
+      <div class="skill reveal"><h3>Databases</h3><p>MySQL, PostgreSQL</p></div>
+      <div class="skill reveal"><h3>AI & Tools</h3><p>OpenAI, Streamlit, Unity 3D, Blender, Git</p></div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="section-head"><h2>Experience</h2></div>
+    <div class="timeline">
+      <div class="item reveal"><h3>Web Developer Intern — e-soft IT Solutions</h3><p class="time">2024</p><p>Developed responsive web apps; optimized MySQL (−30% API time).</p></div>
+      <div class="item reveal"><h3>Java Developer & Data Analytics Intern — Technohacks</h3><p class="time">Aug 2024</p><p>Built data utilities and Java modules.</p></div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section alt">
+    <div class="section-head"><h2>Awards & Highlights</h2></div>
+    <ul class="awards">
+      <li>Smart India Hackathon 2023 — Plant Disease Detection</li>
+      <li>SAMHITA’24 @ MIT — Prize in Paper Presentation</li>
+      <li>150-Day LeetCode Challenge — Arrays, Strings, DP</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="section-head"><h2>Let’s talk</h2><p>Open to internships and software roles.</p></div>
+    <form id="contactForm" class="contact-form">
+      <div class="field"><input type="text" id="name" name="name" required><label for="name">Your Name</label></div>
+      <div class="field"><input type="email" id="email" name="email" required><label for="email">Your Email</label></div>
+      <div class="field"><textarea id="message" name="message" rows="5" required></textarea><label for="message">Message</label></div>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+    <div id="toast" class="toast"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Vinoth Kumar D — Built with HTML, CSS & JS. Deployed on Vercel.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/email.js"></script>
+</body>
+</html>
